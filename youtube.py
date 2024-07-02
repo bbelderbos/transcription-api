@@ -17,7 +17,6 @@ def create_summary_of_transcript(transcript: str) -> str:
     return summary[0]
 
 
-
 def extract_keywords_from_transcript(transcript: str, *, n: int = 5) -> list[str]:
     instructions = f"Extract keywords from this YouTube transcript: {transcript}"
     keywords = marvin.generate(n=n, instructions=instructions)
