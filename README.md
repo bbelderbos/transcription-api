@@ -23,3 +23,15 @@ fastapi dev
 ```bash
 pytest
 ```
+
+## Mypy
+
+```bash
+mypy .
+```
+
+## Pre-commit
+
+```bash
+pre-commit install
+```
